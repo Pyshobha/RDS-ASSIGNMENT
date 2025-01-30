@@ -1,10 +1,13 @@
-# Assuming the vector from question 5 is named `original_vector`
-# Extracting the first and third elements
+xi<-6:12
+xi
+xii<-rep(5.3,times=3)
+xii
+xiii<--3
+xiii
+xiv <- seq(from = 102 , to = length(repeated_vec) , length.out = 9)
+xiv
+original_vector<-c(xi,xii,xiii,xiv)
 extracted_elements <- original_vector[c(1, 3)]
-
-# Omitting the first and third elements from the original vector
 remaining_vector <- original_vector[-c(1, 3)]
-
-# Reconstructing the original sequence
 reconstructed_vector <- c(extracted_elements, remaining_vector)
 reconstructed_vector
