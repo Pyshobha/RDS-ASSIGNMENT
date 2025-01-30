@@ -1,13 +1,8 @@
-i<-seq(from=3,to=6,length.out=5)
-i
+seq_part <- 3:6
+repeat_part <- rep(c(2, -5.1, -33), 2)
+value_part <- 7/42 + 2
+my_vector <- c(seq_part, repeat_part, value_part)
+my_vector
 
-ii<-rep(c(2,-5.1,-33),times=2)
-ii
-
-iii<-7/42+2
-iii
-
-sol6<-c(i,ii,iii)
-sol6
-sol8<-sol6[ -c(1,length(sol6))]
-sol8
+omit_first_last <- my_vector[-c(1, length(my_vector))]
+omit_first_last
