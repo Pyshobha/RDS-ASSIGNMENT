@@ -1,6 +1,7 @@
-##2. Logical Vector Indicating Negative Elements
+# 2. Function to return a logical vector indicating negative elements
 
-negative_elements <- function(x) {
-  return(x < 0)
+is_negative <- function(vec) {
+  return(vec < 0)
 }
-print(negative_elements(c(-2, 3, -5, 6, -8)))
+numeric_vec <- c(-2, 5, -8, 3, 0, -1)
+print(is_negative(numeric_vec))
