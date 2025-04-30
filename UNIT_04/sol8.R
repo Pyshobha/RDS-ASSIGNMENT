@@ -1,0 +1,3 @@
+# 8. Access the age of the second person in a data frame:
+
+df$Age[2]
